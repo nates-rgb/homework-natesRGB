@@ -1,0 +1,233 @@
+body{
+  
+}
+
+div {
+    width: 100%;
+    
+    
+}
+
+form{
+  z-index: 1;
+  background-image:url("https://t4.ftcdn.net/jpg/01/71/62/85/360_F_171628591_fHaJkCmMmP6gapohfht7zsPl00ecoxqK.jpg");
+}
+header{
+  padding: 40px;
+}
+nav{
+  position: relative;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+
+  
+  
+}
+nav, article, aside, footer{
+  padding: 15px;
+}
+
+
+li .inline{
+    
+    display: inline-block;
+    position: relative;
+    
+    
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: -10px;
+    z-index: 1;
+    
+  }
+#image {
+  object-position: 0px;
+}
+.flex-item{
+    padding: 0px;
+    flex-grow: 100;
+    height:50px;
+    width:100%;
+    flex: 100%;
+    
+  }
+a:active {
+    background-color: black;
+  }
+a:hover {
+    background-color: red;
+  }
+a:hover:active {
+    background-color:green;
+}
+
+a:visited {
+    color: blue;
+  }
+
+.inline{
+    border: solid black;
+    padding: 10px;
+    margin:5%;
+    position: relative;
+    
+}
+.sideimage {
+  width:100%;
+  height:200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cenimage {
+  width:100%;
+  height:300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.round{
+  width:fit-content;
+  margin:10px;
+  border-radius: 25px;
+  background:#1494b4;
+}
+.round1{
+  width:fit-content;
+  margin:10px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 25px;
+  background:#1494b4;
+  float:left;
+}
+
+
+.cen{
+    
+    text-align:center;
+}
+.ct{
+    color:aqua;
+}
+aside {
+    text-align:right;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    
+    
+  }
+  table{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  
+  }
+  
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding-bottom:10px;
+    text-align: center;
+  }
+  #box{
+    border: 2px solid red;
+    margin: 25px;
+    padding: 25px;
+  }
+  .alt1 {
+    background-color: pink;
+  }
+  .alt2 {
+    background-color: lightgreen;
+  }
+  .head {
+    background-color: darkgreen;
+    color: white;
+  }
+
+  tr, td, th {
+    border: 5px solid black;
+  }
+  .first::first-letter{
+    font-size: 200%;
+  }
+  .first{
+    color:white;
+    font-family:cursive;
+    
+  }
+  
+  .font {
+    font-family:cursive;
+  }
+
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+  textarea:focus {
+    background-color: lightblue;
+  }
+  input[type=checkbox]:focus {
+    background-color: lightblue;
+  }
+  input[type=submit]:focus {
+    background-color: lightblue;
+  }
+  .grid-container2 {
+    display: grid;
+    column-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    
+  }
+  
+
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding-bottom:10px;
+    text-align: center;
+    transition: transform .2s; /* Animation */
+
+    background-color: red;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  }
+
+ @keyframes example {
+  from {background-color: red;}
+  to {background-color: green;}
+}
+  /* .grid-item2:hover{
+    transform: scale(1.25);
+  } */
+ 
